@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yourname TAMU Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([30.6155, -96.3396], 15); // TAMU coordinates and zoom level
+
+        // Add TAMU Building GeoJSON data
+       
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"  data-a11y-animated-images="system" data-a11y-link-underlines="false">
+
+
+  <head>
+    <meta charset="utf-8">
+
+  
+
+  <link crossorigin="use-credentials" media="all" rel="stylesheet" href="https://assets.github.tamu.edu/assets/light-a09cef873428.css" /><link crossorigin="use-credentials" media="all" rel="stylesheet" href="https://assets.github.tamu.edu/assets/dark-5d486a4ede8e.css" /><link data-color-theme="dark_dimmed" crossorigin="use-credentials" media="all" rel="stylesheet" data-href="https://assets.github.tamu.edu/assets/dark_dimmed-27c8d635e4e5.css" /><link data-color-theme="dark_high_contrast" crossorigin="use-credentials" media="all" rel="stylesheet" data-href="https://assets.github.tamu.edu/assets/dark_high_contrast-8438e75afd36.css" /><link data-color-theme="dark_colorblind" crossorigin="use-credentials" media="all" rel="stylesheet" data-href="https://assets.github.tamu.edu/assets/dark_colorblind-bf5665b96628.css" /><link data-color-theme="light_colorblind" crossorigin="use-credentials" media="all" rel="stylesheet" data-href="https://assets.github.tamu.edu/assets/light_colorblind-c414b5ba1dce.css" /><link data-color-theme="light_high_contrast" crossorigin="use-credentials" media="all" rel="stylesheet" data-href="https://assets.github.tamu.edu/assets/light_high_contrast-e5868b7374db.css" /><link data-color-theme="light_tritanopia" crossorigin="use-credentials" media="all" rel="stylesheet" data-href="https://assets.github.tamu.edu/assets/light_tritanopia-299ac9c64ec0.css" /><link data-color-theme="dark_tritanopia" crossorigin="use-credentials" media="all" rel="stylesheet" data-href="https://assets.github.tamu.edu/assets/dark_tritanopia-3a26e78ad0ff.css" />
+  
+    <link crossorigin="use-credentials" media="all" rel="stylesheet" href="https://assets.github.tamu.edu/assets/primer-primitives-6143c8f97ed1.css" />
+    <link crossorigin="use-credentials" media="all" rel="stylesheet" href="https://assets.github.tamu.edu/assets/primer-047ee6293fcd.css" />
+    <link crossorigin="use-credentials" media="all" rel="stylesheet" href="https://assets.github.tamu.edu/assets/global-7f2d4e2ce2fe.css" />
+    <link crossorigin="use-credentials" media="all" rel="stylesheet" href="https://assets.github.tamu.edu/assets/github-6dc242be27a0.css" />
+  
+
+  
+
+  <script type="application/json" id="client-env">{"locale":"en","featureFlags":[]}</script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/wp-runtime-410dbad82fa4.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_dompurify_dist_purify_js-64d590970fa6.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-a4c183-18bf85b8e9f4.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/ui_packages_soft-nav_soft-nav_ts-df17d5597d8f.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/environment-509b58e05b9f.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_primer_behaviors_dist_esm_focus-zone_js-d55308df5023.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_relative-time-element_dist_index_js-99e288659d4f.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-d2119e75298d.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_auto-complete-element-5b3870-9b38c0812424.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-8873b7-5771678648e0.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-bdc901-0fe41db0acb6.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/github-elements-6466cd5dafb5.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/element-registry-2d801fae2ffd.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_hydro-analytics-client_dist_analytics-client_js-node_modules_gith-f3aee1-fd3c22610e40.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-4aefce0fc3c8.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_morphdom_dist_morphdom-esm_js-b1fdd7158cf0.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-1f4793023fcd.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_scroll-anchoring_dist_scro-52dc4b-e1e33bfc0b7e.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-7a8e2b-f036384374ea.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_details-dialog_ts-app_assets_modules_github_fetch_ts-9ca164041015.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_updatable-content_ts-ui_packages_hydro-analytics_hydro-analytics_ts-e4da304b75e7.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_onfocus_ts-app_assets_modules_github_sticky-scroll-into-view_ts-b88dcdb1ae32.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_sso_ts-ui_packages-7d50ad-9491f2be61ee.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-2e2258-f7b8ad0ef997.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-f22ac6b94445.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_blob-anchor_ts-app_assets_modules_github_filter-sort_ts-app_assets_-c96432-b9f980134541.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/behaviors-4921626b9078.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-fe0b8ccc90a5.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/notifications-global-f57687007bfc.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_primer_behaviors_dist_esm_dimensions_js-node_modules_delegated-events_di-94a48b-f9e5146929c3.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_virtualized-list_es_index_js-node_modules_github_template-parts_lib_index_js-677582870bfd.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-7a61950-652988b53689.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_mini-throt-40d40d-6e72ee4b2241.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_filter-input_ts-23ff0b151d3a.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_ref-selector_ts-0e2b12902d39.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/app_assets_modules_github_onfocus_ts-app_assets_modules_github_settings_actions-policy-form_t-884e05-69798a92c184.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/settings-335bb6f4e34b.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_memoize_dist_esm_in-687f35-d131f0b6de8e.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/sessions-c4e7d755d105.js"></script>
+<script crossorigin="use-credentials" defer="defer" type="application/javascript" src="https://assets.github.tamu.edu/assets/signup-9197d41c14b1.js"></script>
+  
+
+  <title>Sign in via LDAP · GitHub</title>
+
+
+
+  <meta name="route-pattern" content="/login(.:format)">
+
+    
+  <meta name="current-catalog-service-hash" content="0f76536c4604600810540182b2933f67f7b6e382436e725950becccd1c761d20">
+
+
+  <meta name="request-id" content="718e843e-465a-4731-a91f-bf385efe254c" data-turbo-transient="true" /><meta name="html-safe-nonce" content="262fba16bb2ff69bd8cdcbbad94d45c1c40dce928b1fb1d5ae6ad473d981cbf1" data-turbo-transient="true" />
+
+
+
+
+  <meta name="github-keyboard-shortcuts" content="" data-turbo-transient="true" />
+  
+
+  <meta name="selected-link" value="/login" data-turbo-transient>
+  <link rel="assets" href="https://assets.github.tamu.edu/">
+
+  
+
+
+
+
+
+
+
+  
+
+    <meta name="user-login" content="">
+
+  
+
+    <meta name="viewport" content="width=device-width">
+    
+      <meta name="description" content="GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.">
+      <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.tamu.edu/fluidicon.png" title="GitHub">
+    <meta property="fb:app_id" content="1401488693436528">
+    
+      <meta property="og:url" content="https://github.tamu.edu">
+      <meta property="og:site_name" content="GitHub">
+      <meta property="og:title" content="Build software better, together">
+      <meta property="og:description" content="GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.">
+      <meta property="og:image" content="https://assets.github.tamu.edu/images/modules/open_graph/github-logo.png">
+      <meta property="og:image:type" content="image/png">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image:height" content="1200">
+      <meta property="og:image" content="https://assets.github.tamu.edu/images/modules/open_graph/github-mark.png">
+      <meta property="og:image:type" content="image/png">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image:height" content="620">
+      <meta property="og:image" content="https://assets.github.tamu.edu/images/modules/open_graph/github-octocat.png">
+      <meta property="og:image:type" content="image/png">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image:height" content="620">
+
+      <meta property="twitter:site" content="github">
+      <meta property="twitter:site:id" content="13334762">
+      <meta property="twitter:creator" content="github">
+      <meta property="twitter:creator:id" content="13334762">
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:title" content="GitHub">
+      <meta property="twitter:description" content="GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.">
+      <meta property="twitter:image:src" content="https://assets.github.tamu.edu/images/modules/open_graph/github-logo.png">
+      <meta property="twitter:image:width" content="1200">
+      <meta property="twitter:image:height" content="1200">
+
+
+
+        <meta name="hostname" content="github.tamu.edu">
+
+      <meta name="codemirror-crossorigin-credentials">
+
+
+      <meta name="robots" content="noindex">
+
+    <meta name="runtime-environment" content="enterprise">
+    <meta name="is-private-instance" content="false">
+
+  <meta http-equiv="x-pjax-version" content="918b8d956f2db8945f76dafb801ccf1250e3eb93977fa244761ade28aa949ab9" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="d578360696fdf6ac9ff8a9e074263f6796eae0106216f40ce0d200044bc729d6" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="4678bdbc9b2d4223b0135c2169f20fde8270300994fd50ae1de9a158d6fde445" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="a33fd5cbc078fb1829589566e3823eaf9171d90a35d562e6d64ec3773f7a6994" data-turbo-track="reload">
+
+  <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">
+
+      <link crossorigin="use-credentials" media="all" rel="stylesheet" href="https://assets.github.tamu.edu/assets/github-6dc242be27a0.css" />
+
+
+
+    <link rel="canonical" href="https://github.tamu.edu/login" data-turbo-transient>
+  <meta name="turbo-body-classes" content="logged-out enterprise env-production page-responsive session-authentication">
+
+
+
+  <link rel="mask-icon" href="https://assets.github.tamu.edu/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://assets.github.tamu.edu/favicons/favicon-ent.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://assets.github.tamu.edu/favicons/favicon-ent.svg">
+
+<meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
+
+  <meta name="msapplication-TileImage" content="/windows-tile.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out enterprise env-production page-responsive session-authentication" style="word-wrap: break-word;">
+    <div data-turbo-body class="logged-out enterprise env-production page-responsive session-authentication" style="word-wrap: break-word;">
+      
+
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+      <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+</span>      
+      
+
+
+      
+
+        <div class="header header-logged-out width-full pt-5 pb-4" role="banner">
+  <div class="container clearfix width-full text-center">
+      <a class="header-logo" href="https://github.tamu.edu/" aria-label="Homepage">
+          <img alt="GitHub Enterprise logo" src="https://assets.github.tamu.edu/images/modules/enterprise/gh-enterprise-logo.svg" width="204">
+      </a>
+  </div>
+</div>
+
+
+      <div hidden="hidden" data-view-component="true" class="js-stale-session-flash flash flash-warn mb-3">
+  
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+        <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+        <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+        <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+
+    <div data-view-component="true" class="flash-close">
+  <button id="icon-button-63bd6dfa-b077-4c9d-b718-43d532ebc8f1" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium js-flash-close">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</button>  <tool-tip id="tooltip-820d5952-9d77-45f6-b1f0-0251c5295842" for="icon-button-63bd6dfa-b077-4c9d-b718-43d532ebc8f1" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+</div>
+
+  
+</div>
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+
+
+    
+    <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.tamu.edu/notifications/beta/shelf"></include-fragment>
+
+
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+      <main>
+        
+
+  <div class="auth-form px-3" id="login" >
+
+
+      <input type="hidden" name="ga_id" class="js-octo-ga-id-input">
+      <div class="auth-form-header p-0">
+        <h1>Sign in via LDAP</h1>
+      </div>
+
+      <div class="auth-form-message mb-3">
+        <p>Login with your TAMU NetID (username only) and password.</p>
+<p>Visit <a href="https://gateway.tamu.edu/" rel="nofollow">https://gateway.tamu.edu/</a> to change your password.</p>
+<p>This computer system and data herein are available only for authorized purposes by authorized users: use for any other purpose is prohibited and may result in administrative/disciplinary actions or criminal prosecution against the user. Usage may be subject to security testing and monitoring; there is no expectation of privacy on this system except as otherwise provided by applicable privacy laws. Usage is also subject to University Rule 29.01.03.M0.02 (Rules for Responsible Computing).</p>
+<p>Acceptable Use:
+Users of the Service must follow both GitHub’s Acceptable Use Policy and Texas A&amp;M University SAPS (<a href="http://rules-saps.tamu.edu/TAMURulesAndSAPs.aspx#29" rel="nofollow">http://rules-saps.tamu.edu/TAMURulesAndSAPs.aspx#29</a>) and Information Security Controls (<a href="https://it.tamu.edu/policy/it-policy/controls-catalog/index.php" rel="nofollow">https://it.tamu.edu/policy/it-policy/controls-catalog/index.php</a>). The following additional provisions apply:
+Restrictions on Use: The Service is appropriate for many academic uses as well as some business and administrative uses.
+The Service is not appropriate for:</p>
+<ul>
+<li>Electronic Protected Health Information (EPHI) subject to the Health Insurance Portability and Accountability Act (HIPAA).</li>
+<li>Data controlled for export under Export Control Laws (EAR, ITAR).</li>
+<li>Personally Identifiable Information (PII), including Social Security Numbers, credit card numbers, and bank or financial account numbers.</li>
+<li>High Risk Activities such as those involving business records in which loss or inappropriate disclosure would result in large consequences in terms of economic loss, loss of trust, or legal liability.</li>
+</ul>
+
+      </div>
+
+      <div id="js-flash-container" data-turbo-replace>
+
+
+
+
+
+  <template class="js-flash-template">
+    
+<div class="flash flash-full   {{ className }}">
+  <div class="px-2" >
+    <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    <div aria-atomic="true" role="alert" class="js-flash-alert">
+      
+      <div>{{ message }}</div>
+
+    </div>
+  </div>
+</div>
+  </template>
+</div>
+
+
+      <div class="flash js-transform-notice" hidden>
+        <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+          <svg aria-label="Dismiss" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+        </button>
+      </div>
+
+      <div class="auth-form-body mt-3">
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tVk4NXVwVZbzrxKinjae8csjoLJksSc0EqkqTG6T5e5W0l6VEpATv6uf3OxhVj_CH_GJfsLaoPGEWarkGYq7hA" />  <label for="login_field">
+    Username
+  </label>
+  <input type="text" name="login" id="login_field" class="form-control input-block js-login-field" autocapitalize="off" autocorrect="off" autocomplete="username" autofocus="autofocus" />
+
+  <div class="position-relative">
+    <label for="password">
+      Password
+    </label>
+    <input type="password" name="password" id="password" class="form-control form-control input-block js-password-field" autocomplete="current-password" />
+    
+<input type="hidden" name="webauthn-conditional" value="undefined">
+<input type="hidden" class="js-support" name="javascript-support" value="unknown">
+<input type="hidden" class="js-webauthn-support" name="webauthn-support" value="unknown">
+<input type="hidden" class="js-webauthn-iuvpaa-support" name="webauthn-iuvpaa-support" value="unknown">
+<input type="hidden" name="return_to" id="return_to" value="https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Content/raw/4d26d1ac5f8cb1eea28825b75240cfc048cf3049/labs/tamubuildings.js" autocomplete="off" class="form-control" />
+<input type="hidden" name="allow_signup" id="allow_signup" autocomplete="off" class="form-control" />
+<input type="hidden" name="client_id" id="client_id" autocomplete="off" class="form-control" />
+<input type="hidden" name="integration" id="integration" autocomplete="off" class="form-control" />
+
+
+    <input type="submit" name="commit" value="Sign in" class="btn btn-primary btn-block js-sign-in-button" data-disable-with="Signing in…" data-signin-label="Sign in" data-sso-label="Sign in with your identity provider" development="false" disable-emu-sso="false" />
+
+    
+  </div>
+</form>
+      </div>
+
+
+
+  </div>
+
+      </main>
+  </div>
+
+          <div class="footer container-lg p-responsive py-6 mt-6 f6" role="contentinfo">
+    <ul class="list-style-none d-flex flex-justify-center">
+        <li><a href="https://docs.github.com/enterprise-server@3.11">Help</a></li>
+            <li class="ml-3"><a href="https://github.com/tamu-edu/it-github-ghes-changelog">Support</a></li>
+    </ul>
+  </div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+    <template id="snippet-clipboard-copy-button">
+  <div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+<template id="snippet-clipboard-copy-button-unpositioned">
+  <div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+
+
+    </div>
+
+    <div id="js-global-screen-reader-notice" class="sr-only" aria-live="polite" ></div>
+  </body>
+</html>
+
+
+        // Add GeoJSON layer with custom styling
+        var buildingsLayer = L.geoJSON(buildingsData, {
+            style: function (feature) {
+                return {
+                    fillColor: 'maroon', // Change the building color to maroon
+                    fillOpacity: 0.5,
+                    weight: 1,
+                    color: 'black'
+                };
+            },
+            onEachFeature: function (feature, layer) {
+                layer.on({
+                    mouseover: highlightFeature,
+                    mouseout: resetHighlight,
+                    click: zoomToFeature
+                });
+            }
+        }).addTo(map);
+
+        // Custom Info Control
+        var info = L.control();
+
+        info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info');
+            this.update();
+            return this._div;
+        };
+
+        info.update = function (props) {
+            this._div.innerHTML = '<h4>Building Info</h4>' +  (props ?
+                '<b>' + props.name + '</b><br />' + props.abbr
+                : 'Hover over a building');
+        };
+
+        info.addTo(map);
+
+        function highlightFeature(e) {
+            var layer = e.target;
+
+            layer.setStyle({
+                weight: 3,
+                color: 'black',
+                fillOpacity: 0.7
+            });
+
+            info.update(layer.feature.properties);
+        }
+
+        function resetHighlight(e) {
+            buildingsLayer.resetStyle(e.target);
+            info.update();
+        }
+
+        function zoomToFeature(e) {
+            map.fitBounds(e.target.getBounds());
+        }
+
+        // Add base tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    </script>
+</body>
+</html>
