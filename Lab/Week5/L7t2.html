@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecast</title>
+  <!-- Include Highcharts Library -->
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+  
+  <div id="weatherChart"></div>
+  
+  <script>
+    
+    const weatherData = [
+      { day: 'Saturday', high: 82, low: 67 },
+      { day: 'Sunday', high: 81, low: 59 },
+      { day: 'Monday', high: 81, low: 50 },
+      { day: 'Tuesday', high: 70, low: 47 },
+      { day: 'Wednesday', high: 77, low: 51 },
+      { day: 'Thursday', high: 78, low: 60 },
+      { day: 'Friday', high: 79, low: 66 },
+      { day: 'Saturday', high: 80, low:66}
+    ];
+
+    
+    const categories = weatherData.map(data => data.day);
+    const highTemps = weatherData.map(data => data.high);
+    const lowTemps = weatherData.map(data => data.low);
+
+    
+    Highcharts.chart('weatherChart', {
+      title: {
+        text: 'Weekly Temperature Forecast in College Station'
+      },
+      xAxis: {
+        categories: categories
+      },
+      yAxis: {
+        title: {
+          text: 'Temperature (°F)'
+        }
+      },
+      series: [{
+        name: 'High Temperature',
+        data: highTemps
+      }, {
+        name: 'Low Temperature',
+        data: lowTemps
+      }],
+      plotOptions: {
+        line: {
+          dataLabels: {
+            enabled: true
+          },
+          enableMouseTracking: true
+        }
+      }
+    });
+  </script>
+</body>
+</html>
